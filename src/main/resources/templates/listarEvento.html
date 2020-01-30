@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Evento por id</h1>
+
+<div>
+    <div>
+        <p><strong>Nome: <span th:text="${evento.nome}"></span></strong></p>
+        <p><strong>Nome: <span th:text="${evento.tipo}"></span></strong></p>
+        <p><strong>Nome: <span th:text="${evento.data}"></span></strong></p>
+        <p><strong>Nome: <span th:text="${evento.horaInicio}"></span></strong></p>
+        <p><strong>Nome: <span th:text="${evento.horaFim}"></span></strong></p>
+        <p>
+        <p><strong>Rua: </strong> <span th:text="${evento.rua}">, </span>
+        <p><strong>Estado: </strong> <span th:text="${evento.estado}">, </span>
+        <p><strong>Pais: </strong> <span th:text="${evento.pais}">, </span>
+        <p><strong>Bairro: </strong> <span th:text="${evento.bairro}">, </span>
+    </div>
+
+</div>
+</body>
+</html>

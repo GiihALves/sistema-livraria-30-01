@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+<img src="https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/comunicacao/arquivos/manual_identidade_visual/ASSISTENCIA_SOCIAL/ASSISTENCIA_DESENVOLVIMENTO_SOCIAL_CENTRALIZADO/ASSISTENCIA_DESENVOLVIMENTO_SOCIAL_CENTRALIZADO.png" alt="Prefeitura de São Paulo" width="155" height="155">
+<form class="formulario" action="/cadastrar" method="POST">
+    <h2>Preencha o formulário:</h2>
+    <br><br>
+
+    <label>Nome do evento: </label>
+    <input type="text" name="nome"> <br><br>
+
+    <label>Descrição: </label><br>
+    <textarea name="descricaoEvento" id="" cols="30" rows="10"> </textarea> <br><br>
+
+    <label>Tipo: </label>
+    <input type="text" name="tipo"> <br><br>
+
+    <label>Data: </label>
+    <input type="date" name="data"> <br><br>
+
+    <label>Horario de Inicio: </label>
+    <input type="time" name="horaInicio"> <br><br>
+
+    <label>Horario de Finalização: </label>
+    <input type="time" name="horaFim"> <br><br>
+
+    <label>País: </label>
+    <input type="text" name="pais">
+    <label>Estado: </label>
+    <input type="text" name="estado"> <br><br>
+
+    <label>Bairro: </label>
+    <input type="text" name="bairro"> <br><br>
+
+    <label>Rua: </label>
+    <input type="text" name="rua">
+
+    <label>Número: </label>
+    <input type="text" name="numero"> <br><br>
+
+    <label>Link imagem: </label>
+    <input type="text" name="imagem"> <br><br>
+
+    <p><a href="/eventos">Ver eventos</a></p>
+
+    <button>Cadastrar</button>
+</form>
+</body>
+</html>
